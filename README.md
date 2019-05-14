@@ -11,3 +11,9 @@ git flow feature publish MOEN-1/readmeChanges
 
 ###Pulling a feature branch from remote to local for changes
 git flow feature track MOEN-1/readmeChanges
+
+### Raise a pr against dev for review
++2 
+
+### Finish the feature branch and merge in dev
+git flow feature finish MOEN-1/readmeChanges
